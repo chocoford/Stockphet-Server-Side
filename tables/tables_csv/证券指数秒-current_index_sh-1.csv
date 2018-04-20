@@ -1,0 +1,11 @@
+identifier,time,price,change,change_amount,transaction_vol,turnover_vol,rise_num,fall_num,parity_num
+string,string,string,string,string,string,string,int,int,int
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,

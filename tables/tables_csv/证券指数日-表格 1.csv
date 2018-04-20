@@ -1,0 +1,11 @@
+di_id,di_date,di_oprice,di_cprice,di_hprice,di_lprice,di_transaction_vol,di_turnover_vol,di_rise_num,di_fall_num,di_parity_num
+上证指数为sh，深证成指为sz,,开盘价,收盘价,最高价,最低价,成交额,成交量,涨家数,跌家数,平家数
+sh,2018-04-03,,,,,,,,,
+sz,2018-04-03,,,,,,,,,
+sh,2018-04-04,,,,,,,,,
+sz,2018-04-04,,,,,,,,,
+sh,2018-04-05,,,,,,,,,
+sz,2018-04-05,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
