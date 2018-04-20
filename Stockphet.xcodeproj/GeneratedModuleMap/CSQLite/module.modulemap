@@ -1,4 +1,4 @@
 module CSQLite {
-    umbrella "/Users/dove/Developer/Vapor/Stockphet/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
+    umbrella "/Users/dove/Developer/GitHub/Stockphet-Server-Side/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
     export *
 }
