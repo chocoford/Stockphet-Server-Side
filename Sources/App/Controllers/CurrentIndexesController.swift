@@ -16,9 +16,11 @@ struct CurrentIndexesController {
         if identifer == "sz" {
             let indexes = try CurrentIndexSz.all()
             return try indexes.makeJSON()
-        } else {
+        } else if identifer == "sh" {
             let indexes = try CurrentIndexSh.all()
             return try indexes.makeJSON()
+        } else {
+            throw Abort.badRequest
         }
         
     }
@@ -30,10 +32,12 @@ struct CurrentIndexesController {
             let index = try CurrentIndexSz.init(json: json)
             try index.save()
             return index
-        } else {
+        } else if identifer == "sh" {
             let index = try CurrentIndexSh.init(json: json)
             try index.save()
             return index
+        } else {
+            throw Abort.badRequest
         }
     }
     
@@ -41,8 +45,10 @@ struct CurrentIndexesController {
         let identifer = try req.parameters.next(String.self)
         if identifer == "sz" {
             return (try CurrentIndexSz.makeQuery().filter(raw: "id = (select max(id) from \(CurrentIndexSz.entity))").first()?.makeJSON())!
-        } else {
+        } else if identifer == "sh" {
             return (try CurrentIndexSh.makeQuery().filter(raw: "id = (select max(id) from \(CurrentIndexSh.entity))").first()?.makeJSON())!
+        } else {
+            throw Abort.badRequest
         }
     }
     
