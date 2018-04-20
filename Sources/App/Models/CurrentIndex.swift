@@ -130,16 +130,3 @@ extension CurrentIndex: Preparation {
 //}
 
 
-
-extension CurrentIndex {
-    func findLatestIndex(identifer: String) throws -> CurrentIndex {
-        var query = try CurrentIndex.makeQuery()
-        query.and { andGroup in
-            andGroup.filter(Properties.identifier, identifer)
-            
-        }
-        
-    }
-}
-
-
