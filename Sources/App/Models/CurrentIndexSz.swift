@@ -2,7 +2,7 @@ import Vapor
 import MySQLProvider
 
 
-final class CurrentIndexSz: CurrentIndex {
+final class CurrentIndexSz:CurrentIndex, Model  {
     static var entity = "current_indexes_sz"
     
 }

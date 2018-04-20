@@ -3,9 +3,9 @@ import FluentProvider
 import MySQLProvider
 
 
-class CurrentIndex: Model {
+class CurrentIndex {
     var storage = Storage()
-
+    
     struct Properties {
         static let id = "id"
 //        static let identifier = "identifier"

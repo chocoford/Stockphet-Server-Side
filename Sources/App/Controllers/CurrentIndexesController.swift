@@ -3,14 +3,16 @@ import FluentProvider
 
 struct CurrentIndexesController {
     func addRoutes(to drop: Droplet) {
-        let currentIndexesGroup = drop.grouped("currentIndexes")
+        let currentIndexesGroup = drop.grouped("api", "currentIndexes")
         currentIndexesGroup.get("all", String.parameter, handler: allIndexesInfo)
-        currentIndexesGroup.post("create", String.parameter, handler: createCurrentIndexes)
         currentIndexesGroup.get("latest", String.parameter, handler: getCurrentIndexes)
+        let currentIndexesInsertGroup = drop.grouped(host: "localhost")
+        currentIndexesInsertGroup.post("create_ci", String.parameter, handler: createCurrentIndexes)
     }
     
     func allIndexesInfo(_ req: Request) throws -> ResponseRepresentable {
         let identifer = try req.parameters.next(String.self)
+        print(identifer)
         if identifer == "sz" {
             let indexes = try CurrentIndexSz.all()
             return try indexes.makeJSON()
@@ -38,9 +40,9 @@ struct CurrentIndexesController {
     func getCurrentIndexes(_ req: Request) throws -> ResponseRepresentable {
         let identifer = try req.parameters.next(String.self)
         if identifer == "sz" {
-            return (try CurrentIndexSz.makeQuery().filter(raw: "id = LAST_INSERT_ID()").first()?.makeJSON())!
+            return (try CurrentIndexSz.makeQuery().filter(raw: "id = (select max(id) from \(CurrentIndexSz.entity))").first()?.makeJSON())!
         } else {
-            return (try CurrentIndexSh.makeQuery().filter(raw: "id = LAST_INSERT_ID()").first()?.makeJSON())!
+            return (try CurrentIndexSh.makeQuery().filter(raw: "id = (select max(id) from \(CurrentIndexSh.entity))").first()?.makeJSON())!
         }
     }
     

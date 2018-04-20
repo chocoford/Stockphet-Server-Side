@@ -2,7 +2,7 @@ import Vapor
 import MySQLProvider
 
 
-final class CurrentIndexSh: CurrentIndex {
+final class CurrentIndexSh:CurrentIndex, Model {
     static var entity = "current_indexes_sh"
 }
 extension CurrentIndexSh: JSONConvertible {

@@ -12,6 +12,9 @@ extension Droplet {
             return "Hello, world!"
         }
         
+        let currentIndexesController = CurrentIndexesController()
+        currentIndexesController.addRoutes(to: self)
+        
         group(host: "localhost") { vapor in
             let dailyStockController = DailyStockController()
             let dailyBlockController = DailyBlockController()
@@ -32,8 +35,7 @@ extension Droplet {
                 return try recommendedStockController.store(requset)
             })
             
-            let currentIndexesController = CurrentIndexesController()
-            currentIndexesController.addRoutes(to: self)
+
             
         }
         
