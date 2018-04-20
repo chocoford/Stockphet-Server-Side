@@ -1045,8 +1045,8 @@
 		OBJ_863 /* DailyRecommendationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DailyRecommendationsController.swift */; };
 		OBJ_864 /* DailyStocksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* DailyStocksController.swift */; };
 		OBJ_865 /* CurrentIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* CurrentIndex.swift */; };
-		OBJ_866 /* CurrentIndexSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CurrentIndexSH.swift */; };
-		OBJ_867 /* CurrentIndexSZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CurrentIndexSZ.swift */; };
+		OBJ_866 /* CurrentIndexSh.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CurrentIndexSh.swift */; };
+		OBJ_867 /* CurrentIndexSz.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CurrentIndexSz.swift */; };
 		OBJ_868 /* DailyBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* DailyBlocks.swift */; };
 		OBJ_869 /* DailyIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* DailyIndex.swift */; };
 		OBJ_870 /* DailyRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* DailyRecommendation.swift */; };
@@ -4328,7 +4328,7 @@
 		OBJ_166 /* SQLiteDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDriver.swift; sourceTree = "<group>"; };
 		OBJ_167 /* SQLiteSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSerializer.swift; sourceTree = "<group>"; };
 		OBJ_169 /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
-		OBJ_17 /* CurrentIndexSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentIndexSH.swift; sourceTree = "<group>"; };
+		OBJ_17 /* CurrentIndexSh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentIndexSh.swift; sourceTree = "<group>"; };
 		OBJ_170 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		OBJ_171 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 		OBJ_172 /* Database+Schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Database+Schema.swift"; sourceTree = "<group>"; };
@@ -4338,7 +4338,7 @@
 		OBJ_176 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
 		OBJ_177 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		OBJ_179 /* Exports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
-		OBJ_18 /* CurrentIndexSZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentIndexSZ.swift; sourceTree = "<group>"; };
+		OBJ_18 /* CurrentIndexSz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentIndexSz.swift; sourceTree = "<group>"; };
 		OBJ_180 /* UUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
 		OBJ_182 /* Atom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
 		OBJ_183 /* Compound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
@@ -5737,8 +5737,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_16 /* CurrentIndex.swift */,
-				OBJ_17 /* CurrentIndexSH.swift */,
-				OBJ_18 /* CurrentIndexSZ.swift */,
+				OBJ_17 /* CurrentIndexSh.swift */,
+				OBJ_18 /* CurrentIndexSz.swift */,
 				OBJ_19 /* DailyBlocks.swift */,
 				OBJ_20 /* DailyIndex.swift */,
 				OBJ_21 /* DailyRecommendation.swift */,
@@ -10329,8 +10329,8 @@
 				OBJ_863 /* DailyRecommendationsController.swift in Sources */,
 				OBJ_864 /* DailyStocksController.swift in Sources */,
 				OBJ_865 /* CurrentIndex.swift in Sources */,
-				OBJ_866 /* CurrentIndexSH.swift in Sources */,
-				OBJ_867 /* CurrentIndexSZ.swift in Sources */,
+				OBJ_866 /* CurrentIndexSh.swift in Sources */,
+				OBJ_867 /* CurrentIndexSz.swift in Sources */,
 				OBJ_868 /* DailyBlocks.swift in Sources */,
 				OBJ_869 /* DailyIndex.swift in Sources */,
 				OBJ_870 /* DailyRecommendation.swift in Sources */,

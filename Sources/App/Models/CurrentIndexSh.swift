@@ -2,11 +2,10 @@ import Vapor
 import MySQLProvider
 
 
-final class CurrentIndexSZ: CurrentIndex {
-    static let entity = "current_indexes_sz"
-
+final class CurrentIndexSh: CurrentIndex {
+    static var entity = "current_indexes_sh"
 }
-extension CurrentIndexSZ: JSONConvertible {
+extension CurrentIndexSh: JSONConvertible {
     func makeJSON() throws -> JSON {
         var json = JSON()
         try json.set(Properties.id, id)
@@ -38,5 +37,29 @@ extension CurrentIndexSZ: JSONConvertible {
     }
 }
 
-extension CurrentIndexSZ: ResponseRepresentable {}
+extension CurrentIndexSh: Preparation {
+    static func prepare(_ database: Database) throws {
+        try database.create(self, closure: { builder in
+            builder.id()
+            builder.string(Properties.time)
+            builder.string(Properties.price)
+            builder.string(Properties.change)
+            builder.string(Properties.changeAmount)
+            builder.string(Properties.transactionVol)
+            builder.string(Properties.turnoverVol)
+            builder.int(Properties.riseNum)
+            builder.int(Properties.fallNum)
+            builder.int(Properties.parityNum)
+            
+        })
+    }
+    
+    static func revert(_ database: Database) throws {
+        try database.delete(self)
+    }
+    
+}
+
+
+extension CurrentIndexSh: ResponseRepresentable {}
 

@@ -5,7 +5,7 @@ import MySQLProvider
 
 class CurrentIndex: Model {
     var storage = Storage()
-    
+
     struct Properties {
         static let id = "id"
 //        static let identifier = "identifier"
@@ -73,29 +73,29 @@ class CurrentIndex: Model {
     }
 }
 
-extension CurrentIndex: Preparation {
-    static func prepare(_ database: Database) throws {
-        try database.create(self, closure: { builder in
-            builder.id()
-//            builder.string(Properties.identifier)
-            builder.string(Properties.time)
-            builder.string(Properties.price)
-            builder.string(Properties.change)
-            builder.string(Properties.changeAmount)
-            builder.string(Properties.transactionVol)
-            builder.string(Properties.turnoverVol)
-            builder.int(Properties.riseNum)
-            builder.int(Properties.fallNum)
-            builder.int(Properties.parityNum)
-            
-        })
-    }
-    
-    static func revert(_ database: Database) throws {
-        try database.delete(self)
-    }
-    
-}
+//extension CurrentIndex: Preparation {
+//    static func prepare(_ database: Database) throws {
+//        try database.create(self, closure: { builder in
+//            builder.id()
+////            builder.string(Properties.identifier)
+//            builder.string(Properties.time)
+//            builder.string(Properties.price)
+//            builder.string(Properties.change)
+//            builder.string(Properties.changeAmount)
+//            builder.string(Properties.transactionVol)
+//            builder.string(Properties.turnoverVol)
+//            builder.int(Properties.riseNum)
+//            builder.int(Properties.fallNum)
+//            builder.int(Properties.parityNum)
+//            
+//        })
+//    }
+//    
+//    static func revert(_ database: Database) throws {
+//        try database.delete(self)
+//    }
+//    
+//}
 
 //extension CurrentIndex: JSONConvertible {
 //    func makeJSON() throws -> JSON {

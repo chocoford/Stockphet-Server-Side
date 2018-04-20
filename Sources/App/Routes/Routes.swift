@@ -21,33 +21,19 @@ extension Droplet {
                 // only responds to requests to localhost
                 return try dailyStockController.store(request)
             }
-//            vapor.delete("delete_ds", handler: { (request) -> ResponseRepresentable in
-//
-//            })
-            
-//            vapor.delete("clear_ds", handler: { (request) -> ResponseRepresentable in
-//                return try dailyStockController.clear(request)
-//            })
-//
-//
-            
             vapor.post("insert_db") { request in
                 return try dailyBlockController.store(request)
             }
-//            vapor.delete("delete_db", handler: { request -> ResponseRepresentable in
-//                return try dailyBlockController.delete(request, dailyBlock: request.dailyBlock())
-//            })
-            
             vapor.post("insert_di") { request in
                 return try dailyIndexController.store(request)
             }
-//            vapor.delete("delete_di", handler: { (request) -> ResponseRepresentable in
-//                return try dailyIndexController.delete(request, dailyIndex: request.dailyIndex())
-//            })
             
             vapor.post("insert_dr", handler: { (requset) -> ResponseRepresentable in
                 return try recommendedStockController.store(requset)
             })
+            
+            let currentIndexesController = CurrentIndexesController()
+            currentIndexesController.addRoutes(to: self)
             
         }
         

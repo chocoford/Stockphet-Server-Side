@@ -25,7 +25,7 @@ extension Config {
         preparations.append(DailyBlock.self)
         preparations.append(DailyIndex.self)
         preparations.append(DailyRecommendation.self)
-        preparations.append(CurrentIndexSZ.self)
-        preparations.append(CurrentIndexSH.self)
+        preparations.append(CurrentIndexSz.self)
+        preparations.append(CurrentIndexSh.self)
     }
 }
