@@ -14,6 +14,8 @@ extension Droplet {
         
         let currentIndexesController = CurrentIndexesController()
         currentIndexesController.addRoutes(to: self)
+        let dailyStockImagesController = DailyStockImagesController.init()
+        dailyStockImagesController.addRountes(to: self)
         
         group(host: "localhost") { vapor in
             let dailyStockController = DailyStockController()

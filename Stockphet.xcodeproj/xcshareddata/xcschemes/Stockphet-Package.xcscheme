@@ -14,121 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Stockphet::App"
-               BuildableName = "App.framework"
-               BlueprintName = "App"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Fluent::Fluent"
-               BuildableName = "Fluent.framework"
-               BlueprintName = "Fluent"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SQLite::CSQLite"
-               BuildableName = "CSQLite.framework"
-               BlueprintName = "CSQLite"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "TLS::TLS"
-               BuildableName = "TLS.framework"
-               BlueprintName = "TLS"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Engine::URI"
-               BuildableName = "URI.framework"
-               BlueprintName = "URI"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Vapor::Vapor"
-               BuildableName = "Vapor.framework"
-               BlueprintName = "Vapor"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Sockets::Sockets"
-               BuildableName = "Sockets.framework"
-               BlueprintName = "Sockets"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Crypto::Crypto"
-               BuildableName = "Crypto.framework"
-               BlueprintName = "Crypto"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Multipart::Multipart"
-               BuildableName = "Multipart.framework"
-               BlueprintName = "Multipart"
+               BlueprintIdentifier = "Engine::HTTP"
+               BuildableName = "HTTP.framework"
+               BlueprintName = "HTTP"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -154,23 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Routing::Routing"
-               BuildableName = "Routing.framework"
-               BlueprintName = "Routing"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Vapor::Sessions"
-               BuildableName = "Sessions.framework"
-               BlueprintName = "Sessions"
+               BlueprintIdentifier = "Node::Node"
+               BuildableName = "Node.framework"
+               BlueprintName = "Node"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -196,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Node::PathIndexable"
-               BuildableName = "PathIndexable.framework"
-               BlueprintName = "PathIndexable"
+               BlueprintIdentifier = "Sockets::Sockets"
+               BuildableName = "Sockets.framework"
+               BlueprintName = "Sockets"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -210,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Engine::HTTP"
-               BuildableName = "HTTP.framework"
-               BlueprintName = "HTTP"
+               BlueprintIdentifier = "Engine::WebSockets"
+               BuildableName = "WebSockets.framework"
+               BlueprintName = "WebSockets"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -224,23 +98,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Debugging::Debugging"
-               BuildableName = "Debugging.framework"
-               BlueprintName = "Debugging"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BCrypt::BCrypt"
-               BuildableName = "BCrypt.framework"
-               BlueprintName = "BCrypt"
+               BlueprintIdentifier = "Engine::Cookies"
+               BuildableName = "Cookies.framework"
+               BlueprintName = "Cookies"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -266,9 +126,51 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FluentProvider::FluentProvider"
-               BuildableName = "FluentProvider.framework"
-               BlueprintName = "FluentProvider"
+               BlueprintIdentifier = "Engine::URI"
+               BuildableName = "URI.framework"
+               BlueprintName = "URI"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Sockets::Transport"
+               BuildableName = "Transport.framework"
+               BlueprintName = "Transport"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Vapor::Configs"
+               BuildableName = "Configs.framework"
+               BlueprintName = "Configs"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Stockphet::Run"
+               BuildableName = "Run"
+               BlueprintName = "Run"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -308,9 +210,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Stockphet::Run"
-               BuildableName = "Run"
-               BlueprintName = "Run"
+               BlueprintIdentifier = "Fluent::Fluent"
+               BuildableName = "Fluent.framework"
+               BlueprintName = "Fluent"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -322,135 +224,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Bits::Bits"
-               BuildableName = "Bits.framework"
-               BlueprintName = "Bits"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Fluent::FluentTester"
-               BuildableName = "FluentTester.framework"
-               BlueprintName = "FluentTester"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Engine::WebSockets"
-               BuildableName = "WebSockets.framework"
-               BlueprintName = "WebSockets"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Console::Console"
-               BuildableName = "Console.framework"
-               BlueprintName = "Console"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Engine::CHTTP"
-               BuildableName = "CHTTP.framework"
-               BlueprintName = "CHTTP"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Engine::Cookies"
-               BuildableName = "Cookies.framework"
-               BlueprintName = "Cookies"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Vapor::Configs"
-               BuildableName = "Configs.framework"
-               BlueprintName = "Configs"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "JSON::JSON"
-               BuildableName = "JSON.framework"
-               BlueprintName = "JSON"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Sockets::Transport"
-               BuildableName = "Transport.framework"
-               BlueprintName = "Transport"
-               ReferencedContainer = "container:Stockphet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SQLite::SQLite"
-               BuildableName = "SQLite.framework"
-               BlueprintName = "SQLite"
+               BlueprintIdentifier = "Stockphet::App"
+               BuildableName = "App.framework"
+               BlueprintName = "App"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -465,6 +241,20 @@
                BlueprintIdentifier = "Multipart::FormData"
                BuildableName = "FormData.framework"
                BlueprintName = "FormData"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TLS::TLS"
+               BuildableName = "TLS.framework"
+               BlueprintName = "TLS"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -504,6 +294,146 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Console::Console"
+               BuildableName = "Console.framework"
+               BlueprintName = "Console"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SQLite::SQLite"
+               BuildableName = "SQLite.framework"
+               BlueprintName = "SQLite"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Fluent::FluentTester"
+               BuildableName = "FluentTester.framework"
+               BlueprintName = "FluentTester"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Bits::Bits"
+               BuildableName = "Bits.framework"
+               BlueprintName = "Bits"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FluentProvider::FluentProvider"
+               BuildableName = "FluentProvider.framework"
+               BlueprintName = "FluentProvider"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Multipart::Multipart"
+               BuildableName = "Multipart.framework"
+               BlueprintName = "Multipart"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Vapor::Sessions"
+               BuildableName = "Sessions.framework"
+               BlueprintName = "Sessions"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BCrypt::BCrypt"
+               BuildableName = "BCrypt.framework"
+               BlueprintName = "BCrypt"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Core::Core"
+               BuildableName = "Core.framework"
+               BlueprintName = "Core"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Crypto::Crypto"
+               BuildableName = "Crypto.framework"
+               BlueprintName = "Crypto"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Random::Random"
                BuildableName = "Random.framework"
                BlueprintName = "Random"
@@ -518,9 +448,79 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Node::Node"
-               BuildableName = "Node.framework"
-               BlueprintName = "Node"
+               BlueprintIdentifier = "Vapor::Vapor"
+               BuildableName = "Vapor.framework"
+               BlueprintName = "Vapor"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Routing::Routing"
+               BuildableName = "Routing.framework"
+               BlueprintName = "Routing"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Engine::CHTTP"
+               BuildableName = "CHTTP.framework"
+               BlueprintName = "CHTTP"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "JSON::JSON"
+               BuildableName = "JSON.framework"
+               BlueprintName = "JSON"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Node::PathIndexable"
+               BuildableName = "PathIndexable.framework"
+               BlueprintName = "PathIndexable"
+               ReferencedContainer = "container:Stockphet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SQLite::CSQLite"
+               BuildableName = "CSQLite.framework"
+               BlueprintName = "CSQLite"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -546,9 +546,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Core::Core"
-               BuildableName = "Core.framework"
-               BlueprintName = "Core"
+               BlueprintIdentifier = "Debugging::Debugging"
+               BuildableName = "Debugging.framework"
+               BlueprintName = "Debugging"
                ReferencedContainer = "container:Stockphet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -587,9 +587,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Stockphet::App"
-            BuildableName = "App.framework"
-            BlueprintName = "App"
+            BlueprintIdentifier = "Engine::HTTP"
+            BuildableName = "HTTP.framework"
+            BlueprintName = "HTTP"
             ReferencedContainer = "container:Stockphet.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
